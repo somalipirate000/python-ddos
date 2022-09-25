@@ -1,7 +1,7 @@
 import threading
 import socket
 
-url = '172.67.176.180'
+url = ''
 port = 80
 fake_ip = '189.4.20.36'
 attack_num = 0
