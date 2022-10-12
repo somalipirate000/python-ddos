@@ -18,7 +18,7 @@ def port1():
         print(attack_num)
         s.close()
 for i in range(500):
-    thread = threading.Thread(port1())
+    thread = threading.Thread(target=port1)
     thread.start()
 
 
